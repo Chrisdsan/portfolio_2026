@@ -1,0 +1,78 @@
+/* components/projectssection.module.css */
+
+.section {
+  width: 100%;
+  max-width: 800px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;   /* standaard: 1 kolom */                   /* ruimte tussen projecten */
+}
+
+/* vanaf 640px breedte 2 kolommen */
+@media (min-width: 640px) {
+  .list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  outline: 1px solid #eaeaea;
+  outline-offset:  -1px;
+  border-radius: 0px;
+  gap: 16px;
+}
+
+.item:hover {
+  outline: 1px solid #C9C9C9;
+  outline-offset: -1px;
+}
+
+.thumbnail {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #666666;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.smalltext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-decoration: none;
+}
+
+
+
+.projectName {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border: 1px solid #eaeaea;
+}
+
+.stack {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #666666;
+}

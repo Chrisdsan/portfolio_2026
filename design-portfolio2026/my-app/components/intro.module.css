@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-top: 2px solid #EAEAEA;
+    border-right: 2px solid #EAEAEA;
+    border-left: 2px solid #EAEAEA;
+    gap: 20px;
+}
+
+.linkcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkitem {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
