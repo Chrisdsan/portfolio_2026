@@ -37,7 +37,10 @@
 .thumbnail {
   width: 100%;
   aspect-ratio: 16 / 9;
-  background-color: #666666;
+}
+
+.img {
+
 }
 
 .text {

@@ -2,7 +2,7 @@ import styles from "./projectssection.module.css";
 
 const projects = [
     {
-        image: "",
+        image: "/videos/uxportfolio2026.webm",
         title: "UX PORTFOLIO 2026",
         href: "https://chrisdsan.com/",
         label: "link",
@@ -74,10 +74,14 @@ export function ProjectsSection() {
 
           <li key={project.title} className={styles.item}>
             <a href={project.href} target="_blank" rel="noreferrer" className={styles.card}>
-                <img
+                <video
                    src={project.image}
                    alt={project.titel}
                    className={styles.thumbnail}
+                   autoPlay
+                   loop
+                   muted
+                   playsInline
             />
                <div className={styles.text}>
                     <span className={styles.projectName}>{project.title}</span>
