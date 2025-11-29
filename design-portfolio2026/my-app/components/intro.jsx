@@ -4,7 +4,7 @@ export function Intro() {
     return (
         <div className={styles.box}>
             <p>CHRISTIAAN DINARTHO SANMOEKMIN</p>
-            <p>UX Designer turned Developer (Design Engineer)</p>
+            <p>UX DESIGNER TURNED DEVELOPER (DESIGN ENGINEER)</p>
             <div className={styles.linkcontainer}>
                 <div className={styles.linkitem}>
                     <p>LINKEDIN:</p>
