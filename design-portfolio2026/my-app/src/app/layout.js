@@ -7,8 +7,8 @@ const geist = Geist({
 })
 
 export const metadata = {
-  title: "My App",
-  description: "Description",
+  title: "Christiaan Sanmoekmin | Design Engineer",
+  description: "a design engineer focused on UX and web interfaces.",
 };
 
 export default function RootLayout({ children }) {
