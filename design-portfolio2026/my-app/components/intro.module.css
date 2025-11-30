@@ -18,9 +18,14 @@
 
 .linkitem {
     display: flex;
+    width: fit-content;
     flex-direction: row;
     gap: 8px;
     font-size: 1rem;
     color: var(--secondarytext);
     font-weight: 450;
+}
+
+.linkitem a:hover {
+    color: var(--foreground);
 }
