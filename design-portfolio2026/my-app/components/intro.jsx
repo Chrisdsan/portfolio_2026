@@ -8,7 +8,7 @@ export function Intro() {
             <div className={styles.linkcontainer}>
                 <div className={styles.linkitem}>
                     <p>LINKEDIN:</p>
-                    <a href="www.linkedin.com/in/chrisdsan" target="_blank" rel="noreferrer" >[/chrisdsan]</a>
+                    <a href="https://www.linkedin.com/in/chrisdsan" target="_blank" rel="noreferrer" >[/chrisdsan]</a>
                 </div>
                 <div className={styles.linkitem}>
                     <p>EMAIL:</p>
