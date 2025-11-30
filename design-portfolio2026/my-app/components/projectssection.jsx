@@ -11,7 +11,7 @@ const projects = [
     {
         image: "/videos/dev_portfolio2026.webm",
         title: "DEVELOPER PORTFOLIO 2026",
-        href: "https://chrisdsan.framer.website/",
+        href: "https://chrisdsan-dev-portfolio-2026-sigma.vercel.app/",
         label: "link",
         stack: "HTML, CSS, JAVASCRIPT, REACT, NEXTJS, GIT, GITHUB",
     },
