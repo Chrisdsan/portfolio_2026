@@ -30,6 +30,13 @@ const projects = [
         stack: "HTML, CSS, JAVASCRIPT, GIT, GITHUB",
     },
     {
+        image: "/videos/oneworldnetwork480p.webm",
+        title: "ONEWORLDNETWORK",
+        href: "https://www.oneworld-network.com/",
+        label: "link",
+        stack: "WIX-STUDIO",   
+    },
+    {
         image: "/videos/uxportfolio2022.webm",
         title: "UX PORTFOLIO 2022",
         href: "https://chrisds-portfolio-lide.webflow.io/",
