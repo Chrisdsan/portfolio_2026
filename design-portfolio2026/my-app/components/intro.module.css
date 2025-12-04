@@ -8,24 +8,40 @@
     border-right: 1px solid var(--border);
     border-left: 1px solid var(--border);
     gap: 20px;
-    font-weight: 450;
+    font-weight: 400;
 }
 
 .linkcontainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .linkitem {
     display: flex;
-    width: fit-content;
+    width: 25%;
     flex-direction: row;
     gap: 8px;
-    font-size: 1rem;
+    font-size: 14px;
     color: var(--secondarytext);
     font-weight: 450;
+}
+
+.linkitem p {
+    width: 100%;
+}
+
+.linkitem a {
+    width: 100%;
 }
 
 .linkitem a:hover {
     color: var(--foreground);
 }
+
+@media (max-width: 640px) {
+    .linkitem {
+        width: 70%;
+    }
+}
+
